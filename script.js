@@ -10,7 +10,7 @@ let img = document.querySelector("img");
 // - Make it so that the colors are different than what's used.
 // - Try using a hex color code.
 button.addEventListener("click", function() {
-    body.style.backgroundColor = "black";
+    body.style.backgroundColor = "#40E0D0";
     header.style.color = "white";
     img.style.border = "5px solid white";
 });
