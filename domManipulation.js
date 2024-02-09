@@ -28,13 +28,16 @@ row1.style.color = "white";
 
 let image = document.querySelector(".image");
 let imageButton = document.querySelector(".image-button");
-let alertButton = document.querySelector(".alert-button");
+let showButton = document.querySelector(".show-button");
+let myButton = document.querySelector(".mybutton")
+let image2 = document.querySelector(".image2")
                                    
 // 7. Add an event listener to `imageButton`
 // - The event type should be "click" or "dblclick"
 imageButton.addEventListener('click', function(){
   image.style.width = "300px";
   image.style.border = "solid #42068c 5px";
+  image.style.borderRadius = "50%";
 });
 // Include the next tasks in the body of the function.
 
@@ -44,3 +47,13 @@ imageButton.addEventListener('click', function(){
 //   - solid
 //   - hex color #42068c
 //   - 5 pixels
+showButton.addEventListener('click', function(){
+  image.style.display = "block";
+});
+
+myButton.addEventListener('click', function(){
+  image2.style.display = "block";
+  image2.style.width = "600px";
+  image2.style.border = "solid white 10px";
+  image2.style.padding = "5px";
+});

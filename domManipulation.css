@@ -59,3 +59,9 @@ body {
 .light-green-2 {
     background-color: lightgreen;
 }
+.image {
+    display: none;
+}
+.image2 {
+    display: none;
+}
